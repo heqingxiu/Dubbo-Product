@@ -1,0 +1,21 @@
+dubbo:
+  application:
+    name: product-service
+
+  registry:
+    protocol: zookeeper
+    address: 127.0.0.1:2181
+
+  protocol:
+    port: 28809
+
+
+spring:
+#  如果不用数据源，那么可以在启动类中使用 注解 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
+  datasource:
+    url: jdbc:mysql://192.168.140.151:3306/qx-v9
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+server:
+  port: 8052

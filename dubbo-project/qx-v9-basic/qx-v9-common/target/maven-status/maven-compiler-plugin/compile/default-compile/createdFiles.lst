@@ -1,0 +1,3 @@
+com\qingxiu\common\dao\IBaseDao.class
+com\qingxiu\common\service\IBaseService.class
+com\qingxiu\common\service\impl\IBaseServiceImpl.class
