@@ -72,4 +72,5 @@ public class ProductController {
         // Redirect to home page after add a commodity success.
         return "redirect:/product/pagelist/1/1";
     }
+
 }

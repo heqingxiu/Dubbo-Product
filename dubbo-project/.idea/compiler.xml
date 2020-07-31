@@ -6,22 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="qx-v9-mapper" />
         <module name="qx-v9-common" />
+        <module name="qx-v9-demo-fastdsf" />
+        <module name="qx-v9-fastdfs-demo" />
         <module name="qx-v9-back-ground" />
         <module name="qx-v9-product-service" />
-        <module name="qx-v9-product-api" />
         <module name="qx-v9-entity" />
+        <module name="qx-v9-product-api" />
+        <module name="qx-v9-mapper" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="qx-v9-fastdfs-demo" target="1.8" />
+      <module name="qx-v9-module-demo" target="1.8" />
+      <module name="qxv9fastdfsdemo" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="qx-v9-back-ground" options="-parameters" />
       <module name="qx-v9-common" options="-parameters" />
+      <module name="qx-v9-demo-fastdsf" options="-parameters" />
       <module name="qx-v9-entity" options="-parameters" />
+      <module name="qx-v9-fastdfs-demo" options="-parameters" />
       <module name="qx-v9-mapper" options="-parameters" />
+      <module name="qx-v9-module-demo" options="" />
       <module name="qx-v9-product-service" options="-parameters" />
+      <module name="qxv9fastdfsdemo" options="-parameters" />
     </option>
   </component>
 </project>

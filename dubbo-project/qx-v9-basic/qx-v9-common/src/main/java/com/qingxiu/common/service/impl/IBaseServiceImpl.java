@@ -17,6 +17,8 @@ public abstract class IBaseServiceImpl<T> implements IBaseService<T> {
     // 将接口定义一个抽象方法（不能new ,但可以是抽象方法）
     public abstract IBaseDao<T> getBaseDao();
 
+
+
     @Override
     public int deleteByPrimaryKey(Long id) {
         return getBaseDao().deleteByPrimaryKey(id);

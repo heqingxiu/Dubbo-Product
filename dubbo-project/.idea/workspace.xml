@@ -2,57 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e187f8b7-540c-4c5d-b69c-660602218125" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Images/Mate30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Images/Nova7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-product-api/src/main/java/com/qx/api/product/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-product-api/src/main/java/com/qx/api/vo/ProductVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/src/main/java/com/qx/config/PageHelperConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/src/main/java/com/qx/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/java/com/qx/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/resources/static/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/resources/templates/product/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/resources/templates/product/pagelist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-demo-fastdsf/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-demo-fastdsf/src/main/java/com/qx/FileApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-demo-fastdsf/src/main/java/com/qx/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-demo-fastdsf/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-api/qx-v9-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-api/qx-v9-product-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-product-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-basic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/src/main/java/com/qingxiu/common/dao/IBaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/src/main/java/com/qingxiu/common/dao/IBaseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/src/main/java/com/qingxiu/common/service/IBaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/src/main/java/com/qingxiu/common/service/IBaseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/src/main/java/com/qingxiu/common/service/impl/IBaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/src/main/java/com/qingxiu/common/service/impl/IBaseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/target/classes/com/qingxiu/common/dao/IBaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/target/classes/com/qingxiu/common/dao/IBaseDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/target/classes/com/qingxiu/common/service/IBaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/target/classes/com/qingxiu/common/service/IBaseService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/target/classes/com/qingxiu/common/service/impl/IBaseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/target/classes/com/qingxiu/common/service/impl/IBaseServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-entity/src/main/java/com/qx/v9/entity/TProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-entity/src/main/java/com/qx/v9/entity/TProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-entity/src/main/java/com/qx/v9/entity/TProductDesc.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-entity/src/main/java/com/qx/v9/entity/TProductDesc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-entity/src/main/java/com/qx/v9/entity/TProductType.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-entity/src/main/java/com/qx/v9/entity/TProductType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-entity/target/classes/com/qx/v9/entity/TProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-entity/target/classes/com/qx/v9/entity/TProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/src/main/java/com/qx/v9/mapper/TProductDescMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/src/main/java/com/qx/v9/mapper/TProductDescMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/src/main/java/com/qx/v9/mapper/TProductDescMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/src/main/java/com/qx/v9/mapper/TProductDescMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/src/main/java/com/qx/v9/mapper/TProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/src/main/java/com/qx/v9/mapper/TProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/src/main/java/com/qx/v9/mapper/TProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/src/main/java/com/qx/v9/mapper/TProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/src/main/java/com/qx/v9/mapper/TProductTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/src/main/java/com/qx/v9/mapper/TProductTypeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/src/main/java/com/qx/v9/mapper/TProductTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/src/main/java/com/qx/v9/mapper/TProductTypeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/target/classes/com/qx/v9/mapper/TProductDescMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/target/classes/com/qx/v9/mapper/TProductDescMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/target/classes/com/qx/v9/mapper/TProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/target/classes/com/qx/v9/mapper/TProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/target/classes/com/qx/v9/mapper/TProductTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/target/classes/com/qx/v9/mapper/TProductTypeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/src/main/java/com/qx/service/impl/ProductTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/src/main/java/com/qx/service/impl/ProductTypeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/target/classes/com/qx/service/impl/ProductTypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/target/classes/com/qx/service/impl/ProductTypeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/java/com/qx/controller/ProductTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/java/com/qx/controller/ProductTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/java/com/qx/ProductBackGroundApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/java/com/qx/ProductBackGroundApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/java/com/qx/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/java/com/qx/controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/classes/com/qx/controller/ProductTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/classes/com/qx/controller/ProductTypeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/classes/templates/product/pagelist.html" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/classes/templates/product/pagelist.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,24 +67,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/resources/templates/product" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/java/com/qx/backup" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-web\qx-v9-back-ground\src\main\resources\templates\product" />
-      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-basic\qx-v9-entity\src\main\java\com\qx\v9\entity" />
-      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-basic\qx-v9-mapper\src\main\java\com\qx\v9\mapper" />
-      <recent name="G:\JAVA\Dubbo\FW\Project\dubbo-project\qx-v9-basic\qx-v9-entity\src\main\java\com\qx\v9\entity" />
-      <recent name="G:\JAVA\Dubbo\FW\Project\dubbo-project\qx-v9-basic\qx-v9-mapper\src\main\java\com\qx\v9\mapper" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-demo\qx-v9-demo-fastdsf\src\main\resources" />
       <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-web\qx-v9-back-ground\src\main\resources\templates" />
       <recent name="G:\JAVA\Dubbo\FW\Project\dubbo-project\qx-v9-basic\qx-v9-mapper\src\main\java\com\qx\v9\dao" />
       <recent name="G:\JAVA\Dubbo\FW\Project\dubbo-project\qx-v9-basic\qx-v9-mapper\src\main\java\com\qx\v9\mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-web\qx-v9-back-ground\src\main\java\com\qx\backup" />
+      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-module-demo\qx-v9-fastdfs-demo\src\main\resources" />
+      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-module-demo\qx-v9-fastdfs-demo\src\main\java" />
+      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-web\qx-v9-back-ground\src\main\resources\templates\product" />
+      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-basic\qx-v9-entity\src\main\java\com\qx\v9\entity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -136,7 +105,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductBackGroundApplication">
+  <component name="RunManager" selected="Spring Boot.FileApplication (1)">
+    <configuration name="FileApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="qx-v9-demo-fastdsf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qx.FileApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="qx-v9-module-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qx.FileApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductBackGroundApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="qx-v9-back-ground" />
       <extension name="coverage">
@@ -165,6 +160,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.FileApplication (1)" />
+        <item itemvalue="Spring Boot.FileApplication" />
         <item itemvalue="Spring Boot.ProductBackGroundApplication" />
         <item itemvalue="Spring Boot.ProductServiceApplication" />
       </list>
@@ -183,7 +180,12 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4c346e7d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@21808b2d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@78d8e3e9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4c346e7d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3116f9b3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -206,7 +208,8 @@
       <workItem from="1596074952329" duration="8199000" />
       <workItem from="1596089763028" duration="24489000" />
       <workItem from="1596124181539" duration="3930000" />
-      <workItem from="1596159920780" duration="13989000" />
+      <workItem from="1596159920780" duration="25850000" />
+      <workItem from="1596209172227" duration="862000" />
     </task>
     <servers />
   </component>

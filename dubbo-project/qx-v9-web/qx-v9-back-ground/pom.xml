@@ -25,6 +25,13 @@
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
+        <!--        FastDFS  Base on taoBao-->
+<!--        <dependency>-->
+        <!--            <groupId>com.github.tobato</groupId>-->
+        <!--            <artifactId>fastdfs-client</artifactId>-->
+        <!--            <version>1.26.1-RELEASE</version>-->
+        <!--        </dependency>-->
+
         <!--        &lt;!&ndash;测试包&ndash;&gt;-->
         <!--        <dependency>-->
         <!--            <groupId>org.springframework.boot</groupId>-->
