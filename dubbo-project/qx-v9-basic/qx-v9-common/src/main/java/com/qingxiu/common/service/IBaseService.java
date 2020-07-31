@@ -1,5 +1,7 @@
 package com.qingxiu.common.service;
 
+import com.github.pagehelper.PageInfo;
+
 import java.util.List;
 
 /**
@@ -23,4 +25,18 @@ public interface IBaseService<T> {
     int updateByPrimaryKey(T t);
 
     List<T> selectAll();
+
+    /**
+     * Unconditional page (Need to be implemented on provider service-end)
+     *
+     * @param pageIndex
+     * @param pageSize
+     * @return
+     */
+    PageInfo<T> page(Integer pageIndex, Integer pageSize);
+
+    /**
+     * Conditional page (Need to be implemented on provider service-end)
+     *
+     */
 }

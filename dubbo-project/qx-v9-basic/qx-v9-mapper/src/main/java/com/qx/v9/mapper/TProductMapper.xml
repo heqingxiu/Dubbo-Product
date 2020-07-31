@@ -15,11 +15,20 @@
     <result column="update_time" property="updateTime" jdbcType="DATE" />
     <result column="update_user" property="updateUser" jdbcType="BIGINT" />
     <result column="is_delete" property="isDelete" jdbcType="BIT" />
+    <result column="type_id" property="typeId" jdbcType="BIGINT" />
+    <result column="type_name" property="typeName" jdbcType="VARCHAR" />
   </resultMap>
   <sql id="Base_Column_List" >
     id, name, price, sale_price, sale_point, images, stock, flag, create_time, create_user, 
-    update_time, update_user, is_delete
+    update_time, update_user, is_delete, type_id, type_name
   </sql>
+
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select
+    <include refid="Base_Column_List" />
+    from t_product
+  </select>
+
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
     select 
     <include refid="Base_Column_List" />
@@ -30,22 +39,22 @@
     delete from t_product
     where id = #{id,jdbcType=BIGINT}
   </delete>
-  <insert id="insert" parameterType="com.qx.v9.entity.TProduct" >
+  <insert id="insert" parameterType="com.qx.v9.entity.TProduct"  >
     <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER" >
       SELECT LAST_INSERT_ID()
     </selectKey>
     insert into t_product (name, price, sale_price, 
       sale_point, images, stock, 
       flag, create_time, create_user, 
-      update_time, update_user, is_delete
-      )
+      update_time, update_user, is_delete, 
+      type_id, type_name)
     values (#{name,jdbcType=VARCHAR}, #{price,jdbcType=BIGINT}, #{salePrice,jdbcType=BIGINT}, 
       #{salePoint,jdbcType=VARCHAR}, #{images,jdbcType=VARCHAR}, #{stock,jdbcType=BIGINT}, 
       #{flag,jdbcType=BIT}, #{createTime,jdbcType=DATE}, #{createUser,jdbcType=BIGINT}, 
-      #{updateTime,jdbcType=DATE}, #{updateUser,jdbcType=BIGINT}, #{isDelete,jdbcType=BIT}
-      )
+      #{updateTime,jdbcType=DATE}, #{updateUser,jdbcType=BIGINT}, #{isDelete,jdbcType=BIT}, 
+      #{typeId,jdbcType=BIGINT}, #{typeName,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.qx.v9.entity.TProduct" >
+  <insert id="insertSelective" parameterType="com.qx.v9.entity.TProduct" keyProperty="id" useGeneratedKeys="true">
     <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER" >
       SELECT LAST_INSERT_ID()
     </selectKey>
@@ -87,6 +96,12 @@
       <if test="isDelete != null" >
         is_delete,
       </if>
+      <if test="typeId != null" >
+        type_id,
+      </if>
+      <if test="typeName != null" >
+        type_name,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
       <if test="name != null" >
@@ -124,6 +139,12 @@
       </if>
       <if test="isDelete != null" >
         #{isDelete,jdbcType=BIT},
+      </if>
+      <if test="typeId != null" >
+        #{typeId,jdbcType=BIGINT},
+      </if>
+      <if test="typeName != null" >
+        #{typeName,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -166,6 +187,12 @@
       <if test="isDelete != null" >
         is_delete = #{isDelete,jdbcType=BIT},
       </if>
+      <if test="typeId != null" >
+        type_id = #{typeId,jdbcType=BIGINT},
+      </if>
+      <if test="typeName != null" >
+        type_name = #{typeName,jdbcType=VARCHAR},
+      </if>
     </set>
     where id = #{id,jdbcType=BIGINT}
   </update>
@@ -182,7 +209,9 @@
       create_user = #{createUser,jdbcType=BIGINT},
       update_time = #{updateTime,jdbcType=DATE},
       update_user = #{updateUser,jdbcType=BIGINT},
-      is_delete = #{isDelete,jdbcType=BIT}
+      is_delete = #{isDelete,jdbcType=BIT},
+      type_id = #{typeId,jdbcType=BIGINT},
+      type_name = #{typeName,jdbcType=VARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
 </mapper>

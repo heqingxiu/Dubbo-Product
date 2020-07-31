@@ -24,7 +24,6 @@ public class ProductTypeController {
     private IProductTypeService iProductTypeService;
 
     @RequestMapping("/product")
-//    public void getProductTypeById(@RequestParam("id") String id) {
     public List<TProductType> getProductTypeById() {
         List<TProductType> tProductTypes = (List<TProductType>) iProductTypeService.selectAll();
         System.out.println(tProductTypes);

@@ -1,5 +1,6 @@
 package com.qingxiu.common.service.impl;
 
+import com.github.pagehelper.PageInfo;
 import com.qingxiu.common.dao.IBaseDao;
 import com.qingxiu.common.service.IBaseService;
 
@@ -55,4 +56,18 @@ public abstract class IBaseServiceImpl<T> implements IBaseService<T> {
     public List<T> selectAll() {
         return getBaseDao().selectAll();
     }
+
+    /**
+     * Unconditional page (Need to be implemented on provider service-end)
+     *
+     * @param pageIndex
+     * @param pageSize
+     * @return
+     */
+    @Override
+    public PageInfo<T> page(Integer pageIndex, Integer pageSize) {
+        return null;
+    }
+
+
 }

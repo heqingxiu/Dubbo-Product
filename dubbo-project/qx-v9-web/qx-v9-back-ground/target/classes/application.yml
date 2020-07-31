@@ -8,4 +8,7 @@ dubbo:
   consumer:
     timeout: 3000
 
-
+# Clear the cache of thymeleaf ,which use to update the data in real time .
+spring:
+  thymeleaf:
+    cache: false

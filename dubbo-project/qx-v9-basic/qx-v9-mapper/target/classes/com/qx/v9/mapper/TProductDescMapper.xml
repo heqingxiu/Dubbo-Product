@@ -14,6 +14,16 @@
   <sql id="Blob_Column_List" >
     p_desc
   </sql>
+
+
+  <select id="selectAll" resultMap="ResultMapWithBLOBs">
+    select
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from t_product_desc
+  </select>
+
   <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Long" >
     select 
     <include refid="Base_Column_List" />
@@ -33,7 +43,7 @@
     insert into t_product_desc (product_id, p_desc)
     values (#{productId,jdbcType=BIGINT}, #{pDesc,jdbcType=LONGVARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.qx.v9.entity.TProductDesc" >
+  <insert id="insertSelective" parameterType="com.qx.v9.entity.TProductDesc" useGeneratedKeys="true" keyProperty="id">
     <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER" >
       SELECT LAST_INSERT_ID()
     </selectKey>

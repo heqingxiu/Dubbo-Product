@@ -1,6 +1,8 @@
 package com.qx.service.impl;
 
+
 import com.alibaba.dubbo.config.annotation.Service;
+import com.github.pagehelper.PageInfo;
 import com.qingxiu.common.dao.IBaseDao;
 import com.qingxiu.common.service.impl.IBaseServiceImpl;
 import com.qx.api.product.IProductTypeService;
@@ -17,7 +19,7 @@ import org.springframework.stereotype.Component;
 
 @Service
 @Component
-public class ProductTypeService extends IBaseServiceImpl<TProductType> implements IProductTypeService{
+public class ProductTypeService extends IBaseServiceImpl<TProductType> implements IProductTypeService {
 
     // 要想注入成功，那么需要在启动类中添加 mybatis的扫描
     @Autowired
@@ -28,5 +30,15 @@ public class ProductTypeService extends IBaseServiceImpl<TProductType> implement
         return tProductTypeMapper;
     }
 
-
+    /**
+     * Unconditional page (Need to be implemented on provider service-end)
+     *
+     * @param pageIndex
+     * @param pageSize
+     * @return
+     */
+    @Override
+    public PageInfo<TProductType> page(Integer pageIndex, Integer pageSize) {
+        return super.page(pageIndex, pageSize);
+    }
 }

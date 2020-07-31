@@ -1,5 +1,7 @@
 package com.qingxiu.common.dao;
 
+import com.github.pagehelper.PageInfo;
+
 import java.util.List;
 
 /**
@@ -24,4 +26,19 @@ public interface IBaseDao<T> {
     int updateByPrimaryKey(T t);
 
     List<T> selectAll();
+
+    /**
+     * Unconditional page (Need to be implemented on provider service-end)
+     *
+     * @param pageIndex
+     * @param pageSize
+     * @return
+     */
+    PageInfo<T> page(Integer pageIndex, Integer pageSize);
+
+    /**
+     * Conditional page (Need to be implemented on provider service-end)
+     *
+     */
+
 }

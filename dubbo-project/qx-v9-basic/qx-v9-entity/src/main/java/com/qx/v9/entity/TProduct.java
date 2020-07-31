@@ -3,12 +3,12 @@ package com.qx.v9.entity;
 import java.io.Serializable;
 import java.util.Date;
 
-    public class TProduct implements Serializable {
-        private Long id;
+public class TProduct implements Serializable {
+    private Long id;
 
-        private String name;
+    private String name;
 
-        private Long price;
+    private Long price;
 
     private Long salePrice;
 
@@ -29,6 +29,10 @@ import java.util.Date;
     private Long updateUser;
 
     private Boolean isDelete;
+
+    private Long typeId;
+
+    private String typeName;
 
     public Long getId() {
         return id;
@@ -132,5 +136,21 @@ import java.util.Date;
 
     public void setIsDelete(Boolean isDelete) {
         this.isDelete = isDelete;
+    }
+
+    public Long getTypeId() {
+        return typeId;
+    }
+
+    public void setTypeId(Long typeId) {
+        this.typeId = typeId;
+    }
+
+    public String getTypeName() {
+        return typeName;
+    }
+
+    public void setTypeName(String typeName) {
+        this.typeName = typeName == null ? null : typeName.trim();
     }
 }
