@@ -22,6 +22,7 @@
         <module>qx-v9-service</module>
         <module>qx-v9-web</module>
         <module>qx-v9-demo</module>
+        <module>qx-v9-files</module>
     </modules>
 
 

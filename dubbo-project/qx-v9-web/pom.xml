@@ -17,6 +17,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>qx-v9-back-ground</module>
+        <module>qx-v9-index</module>
     </modules>
 
 </project>

@@ -3,6 +3,7 @@ package com.qx.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.github.pagehelper.PageInfo;
+
 import com.qingxiu.common.dao.IBaseDao;
 import com.qingxiu.common.service.impl.IBaseServiceImpl;
 import com.qx.api.product.IProductTypeService;
@@ -10,6 +11,7 @@ import com.qx.v9.entity.TProductType;
 import com.qx.v9.mapper.TProductTypeMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
 
 /**
  * Author: QX_He

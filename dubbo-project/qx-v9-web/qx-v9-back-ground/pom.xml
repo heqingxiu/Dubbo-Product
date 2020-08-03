@@ -26,11 +26,18 @@
         </dependency>
 
         <!--        FastDFS  Base on taoBao-->
-<!--        <dependency>-->
-        <!--            <groupId>com.github.tobato</groupId>-->
-        <!--            <artifactId>fastdfs-client</artifactId>-->
-        <!--            <version>1.26.1-RELEASE</version>-->
-        <!--        </dependency>-->
+        <dependency>
+            <groupId>com.github.tobato</groupId>
+            <artifactId>fastdfs-client</artifactId>
+            <version>1.26.1-RELEASE</version>
+        </dependency>
+
+        <!--        gson-->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.0</version>
+        </dependency>
 
         <!--        &lt;!&ndash;测试包&ndash;&gt;-->
         <!--        <dependency>-->

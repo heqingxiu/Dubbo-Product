@@ -2,15 +2,14 @@ package com.qx.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.github.pagehelper.PageInfo;
+
 import com.qx.api.product.IProductService;
 import com.qx.api.vo.ProductVO;
 import com.qx.v9.entity.TProduct;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -22,6 +21,7 @@ import java.util.List;
 @Controller
 @RequestMapping("/product")
 @CrossOrigin
+
 public class ProductController {
 
     @Reference
@@ -66,7 +66,6 @@ public class ProductController {
      */
     @PostMapping("/add")    // Table submit require a Post-method
     public String addProductData(ProductVO productVO) {
-
         // Return commodity id after insert data success
         Long result = iProductService.add(productVO);
         // Redirect to home page after add a commodity success.
