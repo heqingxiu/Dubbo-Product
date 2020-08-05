@@ -1,5 +1,6 @@
 package com.qingxiu.utills.webresult;
 
+import java.io.Serializable;
 import java.util.Arrays;
 
 /**
@@ -7,7 +8,7 @@ import java.util.Arrays;
  * DATA: 2020/8/1-22:09
  * Description: Use to making a multi upload file return result whose format is defined by WangEditor architecture.
  **/
-public class MultiUploadFileResult {
+public class MultiUploadFileResult implements Serializable {
     // It is represent no error when it is 0
     private String errno;
 

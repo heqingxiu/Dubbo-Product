@@ -11,8 +11,12 @@
     <file url="file://$PROJECT_DIR$/qx-v9-files" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/qx-v9-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/qx-v9-service/qx-v9-product-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qx-v9-service/qx-v9-search-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qx-v9-service/qx-v9-search-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/qx-v9-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/qx-v9-web/qx-v9-index" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qx-v9-web/qx-v9-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qx-v9-web/qx-v9-search-web" charset="UTF-8" />
   </component>
 </project>

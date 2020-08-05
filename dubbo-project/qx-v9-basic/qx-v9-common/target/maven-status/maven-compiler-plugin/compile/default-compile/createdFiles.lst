@@ -1,3 +1,14 @@
+com\qingxiu\utills\pageresult\Page.class
+com\qingxiu\utills\largerandomnumber\IdWorker.class
+com\qingxiu\utills\inputstream2xml\ConvertUtils.class
 com\qingxiu\common\dao\IBaseDao.class
-com\qingxiu\common\service\IBaseService.class
 com\qingxiu\common\service\impl\IBaseServiceImpl.class
+com\qingxiu\utills\pageresult\PageResult.class
+com\qingxiu\utills\random\RandomUtil.class
+com\qingxiu\common\service\IBaseService.class
+com\qingxiu\utills\random\RandomValueUtil.class
+com\qingxiu\utills\solrpageresult\SolrPageResult.class
+com\qingxiu\utills\dataforseckill\DateUtil.class
+com\qingxiu\utills\webresult\MultiUploadFileResult.class
+com\qingxiu\utills\webresult\StatusCode.class
+com\qingxiu\utills\webresult\Result.class

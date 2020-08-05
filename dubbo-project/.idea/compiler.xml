@@ -7,21 +7,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="qx-v9-mapper" />
-        <module name="qx-v9-common" />
-        <module name="qx-v9-entity" />
         <module name="qx-v9-fastdfs-demo" />
-        <module name="qx-v9-back-ground" />
-        <module name="qx-v9-product-service" />
-        <module name="qx-v9-files" />
-        <module name="qx-v9-index" />
-        <module name="qx-v9-product-api" />
+        <module name="qx-v9-common" />
         <module name="qx-v9-demo-fastdsf" />
+        <module name="qx-v9-search-service" />
+        <module name="qx-v9-search-api" />
+        <module name="qx-v9-back-ground" />
+        <module name="qx-v9-search" />
+        <module name="qx-v9-index" />
+        <module name="qx-v9-search-web" />
+        <module name="qx-v9-product-api" />
+        <module name="qx-v9-entity" />
+        <module name="qx-v9-files" />
+        <module name="qx-v9-product-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="qx-v9-fastdfs-demo" target="1.8" />
       <module name="qx-v9-module-demo" target="1.8" />
+      <module name="qx-v9-search" target="1.8" />
+      <module name="qx-v9-search-test" target="1.8" />
       <module name="qxv9fastdfsdemo" target="1.8" />
+      <module name="qxv9search" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -36,7 +43,12 @@
       <module name="qx-v9-mapper" options="-parameters" />
       <module name="qx-v9-module-demo" options="" />
       <module name="qx-v9-product-service" options="-parameters" />
+      <module name="qx-v9-search" options="-parameters" />
+      <module name="qx-v9-search-service" options="-parameters" />
+      <module name="qx-v9-search-test" options="-parameters" />
+      <module name="qx-v9-search-web" options="-parameters" />
       <module name="qxv9fastdfsdemo" options="-parameters" />
+      <module name="qxv9search" options="-parameters" />
     </option>
   </component>
 </project>

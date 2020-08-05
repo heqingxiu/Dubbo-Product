@@ -59,8 +59,7 @@ public class ProductServiceImpl extends IBaseServiceImpl<TProduct> implements IP
      */
     @Override
     public Long add(ProductVO productVO) {
-        // We need to decide whether to add or modify , but we ignore that here.
-
+        // We need to estimate whether to add or modify , but we ignore that here.
         //Get TProduct information
         TProduct tProduct = productVO.gettProduct();
         // Supplement general information

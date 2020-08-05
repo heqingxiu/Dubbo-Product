@@ -4,6 +4,7 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.github.pagehelper.PageInfo;
 
 import com.qx.api.product.IProductService;
+import com.qx.api.search.IProductSearchService;
 import com.qx.api.vo.ProductVO;
 import com.qx.v9.entity.TProduct;
 
@@ -26,6 +27,9 @@ public class ProductController {
 
     @Reference
     private IProductService iProductService;
+
+    @Reference
+    private IProductSearchService iProductSearchService;
 
     /**
      * List all product
@@ -68,6 +72,8 @@ public class ProductController {
     public String addProductData(ProductVO productVO) {
         // Return commodity id after insert data success
         Long result = iProductService.add(productVO);
+        // Do solr-data synchronization increment
+        iProductSearchService.synchronizedSolrDataIncrement(result);
         // Redirect to home page after add a commodity success.
         return "redirect:/product/pagelist/1/1";
     }

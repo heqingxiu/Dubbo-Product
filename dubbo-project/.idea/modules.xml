@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/qx-v9-module-demo/qx-v9-fastdfs-demo/qx-v9-fastdfs-demo.iml" filepath="$PROJECT_DIR$/qx-v9-module-demo/qx-v9-fastdfs-demo/qx-v9-fastdfs-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qx-v9-web/qx-v9-search/qx-v9-search.iml" filepath="$PROJECT_DIR$/qx-v9-web/qx-v9-search/qx-v9-search.iml" />
     </modules>
   </component>
 </project>

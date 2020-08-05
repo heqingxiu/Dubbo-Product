@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/qx-v9-module-demo/pom.xml" />
         <option value="$PROJECT_DIR$/qx-v9-module-demo/qx-v9-fastdfs-demo/pom.xml" />
         <option value="$PROJECT_DIR$/qx-v9-web/qx-v9-background/pom.xml" />
+        <option value="$PROJECT_DIR$/qx-v9-web/qx-v9-search/pom.xml" />
       </set>
     </option>
   </component>

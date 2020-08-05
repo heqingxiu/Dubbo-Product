@@ -2,7 +2,7 @@ server:
   port: 9010
 dubbo:
   application:
-    name: product-consumer
+    name: back-ground-web
   registry:
     address: zookeeper://127.0.0.1:2181
   consumer:

@@ -1,9 +1,11 @@
 package com.qingxiu.utills.webresult;
 
+import java.io.Serializable;
+
 /**
  * 返回结果实体类
  */
-public class Result<T> {
+public class Result<T> implements Serializable {
 
     private boolean flag;//是否成功
     private Integer code;//返回码
