@@ -1,11 +1,14 @@
 dubbo:
   application:
-    name: web-index
+    name: index-web
   registry:
     protocol: zookeeper
     address: 127.0.0.1:2181
+  protocol:
+    port: 20820
+
 server:
-  port: 9091
+  port: 9020
 spring:
   thymeleaf:
     cache: false

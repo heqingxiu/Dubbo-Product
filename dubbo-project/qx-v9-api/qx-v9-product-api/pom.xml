@@ -11,37 +11,5 @@
 
     <groupId>at.qingxiu</groupId>
     <artifactId>qx-v9-product-api</artifactId>
-    <dependencies>
-        <dependency>
-            <groupId>at.qingxiu</groupId>
-            <artifactId>qx-v9-entity</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>at.qingxiu</groupId>
-            <artifactId>qx-v9-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-
-
-        <!-- 基于 spring boot的mybatis分页插件-->
-<!--        <dependency>-->
-<!--            <groupId>com.github.pagehelper</groupId>-->
-<!--            <artifactId>pagehelper-spring-boot-starter</artifactId>-->
-<!--            <version>1.2.3</version>-->
-<!--        </dependency>-->
-
-        <!-- 非基于springboot 的分页插件 -->
-        <dependency>
-            <groupId>com.github.pagehelper</groupId>
-            <artifactId>pagehelper</artifactId>
-            <version>3.4.2</version>
-        </dependency>
-
-
-    </dependencies>
-
 
 </project>

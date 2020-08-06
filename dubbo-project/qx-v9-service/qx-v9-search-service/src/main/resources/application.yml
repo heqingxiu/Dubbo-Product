@@ -11,7 +11,7 @@ spring:
     password: 123456
 
 server:
-  port: 8053
+  port: 8030
 
 dubbo:
   application:
@@ -20,3 +20,5 @@ dubbo:
     address: zookeeper://127.0.0.1:2181
   consumer:
     timeout: 3000
+  protocol:
+    port: 20835

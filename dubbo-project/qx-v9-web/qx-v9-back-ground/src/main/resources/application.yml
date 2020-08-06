@@ -7,6 +7,9 @@ dubbo:
     address: zookeeper://127.0.0.1:2181
   consumer:
     timeout: 3000
+  protocol:
+    port: 20810
+
 
 # Clear the cache of thymeleaf ,which use to update the data in real time .
 spring:

@@ -1,0 +1,12 @@
+server:
+  port: 9040
+
+dubbo:
+  application:
+    name: item-web
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  consumer:
+    timeout: 3000
+  protocol:
+    port: 20840

@@ -3,6 +3,7 @@ package com.qx.controller;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.github.pagehelper.PageInfo;
 
+import com.qx.api.item.ItemService;
 import com.qx.api.product.IProductService;
 import com.qx.api.search.IProductSearchService;
 import com.qx.api.vo.ProductVO;
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -30,6 +32,9 @@ public class ProductController {
 
     @Reference
     private IProductSearchService iProductSearchService;
+
+    @Reference
+    private ItemService itemService;
 
     /**
      * List all product
@@ -69,11 +74,13 @@ public class ProductController {
      * @return
      */
     @PostMapping("/add")    // Table submit require a Post-method
-    public String addProductData(ProductVO productVO) {
+    public String addProductData(ProductVO productVO) throws IOException {
         // Return commodity id after insert data success
         Long result = iProductService.add(productVO);
         // Do solr-data synchronization increment
         iProductSearchService.synchronizedSolrDataIncrement(result);
+        // Generate a static page by freemarker
+        itemService.generateHtmlById(result);
         // Redirect to home page after add a commodity success.
         return "redirect:/product/pagelist/1/1";
     }

@@ -1,0 +1,23 @@
+server:
+  port: 8040
+
+dubbo:
+  application:
+    name: item-service
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  consumer:
+    timeout: 3000
+  protocol:
+    port: 20845
+
+location:
+  static:
+    html: F:\\JAVA\Dubbo\\FW\\Project\\GitbubVersion\\GenerateStaticPage\\
+spring:
+  #  如果不用数据源，那么可以在启动类中使用 注解 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
+  datasource:
+    url: jdbc:mysql://192.168.140.151:3306/qx-v9?characterEncoding=utf8   #  如果想要在数据库中添加中文，要设置characterEncoding=utf8
+    driver-class-name: com.mysql.jdbc.Driver # mysql 8.0 以上采用 com.mysql.cj.jdbc.Driver 驱动
+    username: root
+    password: 123456

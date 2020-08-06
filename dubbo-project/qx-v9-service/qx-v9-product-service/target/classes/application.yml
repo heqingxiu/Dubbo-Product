@@ -1,13 +1,12 @@
 dubbo:
   application:
     name: product-service
-
   registry:
     protocol: zookeeper
     address: 127.0.0.1:2181
-
   protocol:
-    port: 28809
+    port: 20815
+
 
 
 spring:
@@ -18,4 +17,4 @@ spring:
     username: root
     password: 123456
 server:
-  port: 8052
+  port: 8010

@@ -34,6 +34,7 @@
         <module>qx-v9-index</module>
         <module>qx-v9-search</module>
         <module>qx-v9-search-web</module>
+        <module>qx-v9-item-web</module>
     </modules>
 
 </project>

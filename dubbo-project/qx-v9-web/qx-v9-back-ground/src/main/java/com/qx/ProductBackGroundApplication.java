@@ -15,7 +15,6 @@ import org.springframework.context.annotation.Import;
 @EnableDubbo
 @Import(FdfsClientConfig.class)
 public class ProductBackGroundApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(ProductBackGroundApplication.class);
     }

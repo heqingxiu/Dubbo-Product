@@ -17,6 +17,7 @@
     <modules>
         <module>qx-v9-product-service</module>
         <module>qx-v9-search-service</module>
+        <module>qx-v9-item-service</module>
     </modules>
 
 </project>
