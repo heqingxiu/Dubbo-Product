@@ -12,6 +12,9 @@
         <module>qx-v9-product-api</module>
         <module>qx-v9-search-api</module>
         <module>qx-v9-item-api</module>
+        <module>qx-v9-note-api</module>
+        <module>qx-v9-email-api</module>
+        <module>qx-v9-registry-api</module>
     </modules>
 
     <dependencies>

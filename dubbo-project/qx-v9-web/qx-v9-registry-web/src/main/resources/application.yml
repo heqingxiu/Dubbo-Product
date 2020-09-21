@@ -1,0 +1,21 @@
+server:
+  port: 9065
+
+dubbo:
+  application:
+    name: registry-web
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  consumer:
+    timeout: 3000
+  protocol:
+    port: 20860
+
+
+spring:
+  rabbitmq:
+    host: 192.168.140.151
+    port: 5672
+    username: qx
+    password: 123456
+    virtual-host: /qx

@@ -1,0 +1,10 @@
+server:
+  port: 8081
+#  servlet:   #  url 路径拼接 ，紧接着端口后边拼接
+#    context-path: /templates
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp

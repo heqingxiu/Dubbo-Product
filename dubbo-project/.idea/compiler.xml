@@ -6,24 +6,36 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="qx-v9-item-service" />
-        <module name="qx-v9-mapper" />
-        <module name="qx-v9-demo-freemarker" />
-        <module name="qx-v9-fastdfs-demo" />
         <module name="qx-v9-common" />
-        <module name="qx-v9-product-api" />
-        <module name="qx-v9-demo-fastdsf" />
-        <module name="qx-v9-product-service" />
-        <module name="qx-v9-item-api" />
-        <module name="qx-v9-search-service" />
         <module name="qx-v9-search-api" />
-        <module name="qx-v9-back-ground" />
-        <module name="qx-v9-index" />
-        <module name="qx-v9-search-web" />
-        <module name="qx-v9-item-web" />
-        <module name="qx-v9-entity" />
+        <module name="qx-v9-fastdfs-demo" />
+        <module name="qx-v9-mapper" />
+        <module name="qx-v9-registry-api" />
+        <module name="qx-v9-product-api" />
+        <module name="socket-test" />
+        <module name="qx-v9-demo-fastdsf" />
         <module name="qx-v9-files" />
+        <module name="qx-v9-note-service" />
+        <module name="qx-v9-note-api" />
+        <module name="qx-v9-email-service" />
+        <module name="qx-v9-demo-freemarker" />
+        <module name="jsp-demo" />
+        <module name="qx-v9-registry-service" />
+        <module name="qx-v9-email-api" />
+        <module name="qx-v9-redis-demo" />
+        <module name="qx-v9-globalexecption" />
+        <module name="qx-v9-index" />
+        <module name="qx-v9-entity" />
+        <module name="qx-v9-item-web" />
+        <module name="qx-v9-back-ground" />
+        <module name="qx-v9-item-service" />
+        <module name="qx-v9-springBoo-redis" />
         <module name="qx-v9-search" />
+        <module name="qx-v9-search-service" />
+        <module name="qx-v9-search-web" />
+        <module name="qx-v9-item-api" />
+        <module name="qx-v9-registry-web" />
+        <module name="qx-v9-product-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,23 +49,31 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jsp-demo" options="-parameters" />
       <module name="qx-v9-back-ground" options="-parameters" />
       <module name="qx-v9-common" options="-parameters" />
       <module name="qx-v9-demo-fastdsf" options="-parameters" />
       <module name="qx-v9-demo-freemarker" options="-parameters" />
+      <module name="qx-v9-email-service" options="-parameters" />
       <module name="qx-v9-entity" options="-parameters" />
       <module name="qx-v9-fastdfs-demo" options="-parameters" />
       <module name="qx-v9-files" options="-parameters" />
+      <module name="qx-v9-globalexecption" options="-parameters" />
       <module name="qx-v9-index" options="-parameters" />
       <module name="qx-v9-item-service" options="-parameters" />
       <module name="qx-v9-item-web" options="-parameters" />
       <module name="qx-v9-mapper" options="-parameters" />
       <module name="qx-v9-module-demo" options="" />
+      <module name="qx-v9-note-service" options="-parameters" />
       <module name="qx-v9-product-service" options="-parameters" />
+      <module name="qx-v9-redis-demo" options="-parameters" />
+      <module name="qx-v9-registry-service" options="-parameters" />
+      <module name="qx-v9-registry-web" options="-parameters" />
       <module name="qx-v9-search" options="-parameters" />
       <module name="qx-v9-search-service" options="-parameters" />
       <module name="qx-v9-search-test" options="-parameters" />
       <module name="qx-v9-search-web" options="-parameters" />
+      <module name="qx-v9-springBoo-redis" options="-parameters" />
       <module name="qxv9fastdfsdemo" options="-parameters" />
       <module name="qxv9search" options="-parameters" />
     </option>

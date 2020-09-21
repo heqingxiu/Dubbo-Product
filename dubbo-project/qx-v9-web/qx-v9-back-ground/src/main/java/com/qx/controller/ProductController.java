@@ -3,12 +3,15 @@ package com.qx.controller;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.github.pagehelper.PageInfo;
 
-import com.qx.api.item.ItemService;
+import com.qingxiu.constants.RabbitMQConstants;
+import com.qx.api.item.IItemService;
 import com.qx.api.product.IProductService;
 import com.qx.api.search.IProductSearchService;
 import com.qx.api.vo.ProductVO;
 import com.qx.v9.entity.TProduct;
 
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -34,7 +37,10 @@ public class ProductController {
     private IProductSearchService iProductSearchService;
 
     @Reference
-    private ItemService itemService;
+    private IItemService IItemService;
+
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
 
     /**
      * List all product
@@ -77,11 +83,16 @@ public class ProductController {
     public String addProductData(ProductVO productVO) throws IOException {
         // Return commodity id after insert data success
         Long result = iProductService.add(productVO);
+        // Use RabbtiMQ mechanism to implement asynchronization among system`s service
+        rabbitTemplate.convertAndSend(RabbitMQConstants.TOPICEXCHANGENAME, "product.add", result);
+        /*
         // Do solr-data synchronization increment
         iProductSearchService.synchronizedSolrDataIncrement(result);
         // Generate a static page by freemarker
         itemService.generateHtmlById(result);
         // Redirect to home page after add a commodity success.
+         */
+
         return "redirect:/product/pagelist/1/1";
     }
 

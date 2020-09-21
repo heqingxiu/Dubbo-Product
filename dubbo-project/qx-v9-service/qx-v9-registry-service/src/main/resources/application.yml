@@ -1,0 +1,26 @@
+server:
+  port: 8065
+
+spring:
+  redis:
+    host: 192.168.140.151
+    port: 6379
+    jedis:
+      pool:
+        max-active: 30
+  rabbitmq:
+    host: 192.168.140.151
+    port: 5672
+    username: qx
+    password: 123456
+    virtual-host: /qx
+
+dubbo:
+  application:
+    name: registry-service
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  consumer:
+    timeout: 3000
+  protocol:
+    port: 20865

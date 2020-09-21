@@ -15,6 +15,12 @@ dubbo:
 spring:
   thymeleaf:
     cache: false
+  rabbitmq:
+    host: 192.168.140.151
+    port: 5672
+    username: qx
+    password: 123456
+    virtual-host: /qx
 
 # FastDFS
 fdfs:

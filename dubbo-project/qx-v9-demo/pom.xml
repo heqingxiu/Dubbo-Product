@@ -19,6 +19,10 @@
     <modules>
         <module>qx-v9-demo-fastdsf</module>
         <module>qx-v9-demo-freemarker</module>
+        <module>qx-v9-redis-demo</module>
+        <module>qx-v9-springBoo-redis</module>
+        <module>qx-v9-globalexecption</module>
+        <module>jsp-demo</module>
     </modules>
     <packaging>pom</packaging>
 

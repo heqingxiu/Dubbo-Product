@@ -21,3 +21,13 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver # mysql 8.0 以上采用 com.mysql.cj.jdbc.Driver 驱动
     username: root
     password: 123456
+
+  rabbitmq:
+    host: 192.168.140.151
+    port: 5672
+    username: qx
+    password: 123456
+    virtual-host: /qx
+
+qx:
+  starter: true

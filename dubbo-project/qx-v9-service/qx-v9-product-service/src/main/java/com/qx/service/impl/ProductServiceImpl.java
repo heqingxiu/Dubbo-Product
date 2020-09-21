@@ -47,7 +47,8 @@ public class ProductServiceImpl extends IBaseServiceImpl<TProduct> implements IP
     public PageInfo<TProduct> page(Integer pageIndex, Integer pageSize) {
         PageHelper.startPage(pageIndex, pageSize);
         List<TProduct> tProductList = tProductMapper.selectAll();
-        PageInfo<TProduct> pageInfo = new PageInfo<TProduct>(tProductList, 3);
+        PageInfo<TProduct> pageInfo = new PageInfo <TProduct>(tProductList,
+                3);
         return pageInfo;
     }
 

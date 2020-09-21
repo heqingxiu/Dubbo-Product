@@ -2,546 +2,131 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e187f8b7-540c-4c5d-b69c-660602218125" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-item-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-item-api/qx-v9-item-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-item-api/src/main/java/com/qx/api/item/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-item-api/target/classes/com/qx/api/item/ItemService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-demo-freemarker/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-demo-freemarker/src/main/java/com/qx/DemoFreemarkerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-demo-freemarker/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-demo-freemarker/src/main/resources/templates/freemarker.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-demo-freemarker/src/main/resources/templates/freemarkerGenerated.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-demo-freemarker/src/test/java/com/qx/test/FreemarkerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-demo-freemarker/target/classes/META-INF/qx-v9-demo-freemarker.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-demo-freemarker/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-demo-freemarker/target/classes/com/qx/DemoFreemarkerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-demo-freemarker/target/classes/templates/freemarker.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-demo-freemarker/target/classes/templates/freemarkerGenerated.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-demo-freemarker/target/test-classes/com/qx/test/FreemarkerTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/qx-v9-item-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/src/main/java/com/qx/ItemServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/src/main/java/com/qx/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/src/main/resources/templates/freemarker.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/src/main/resources/templates/item.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/src/test/java/com/qx/ItemMultiThreadGenerateStaticPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/target/classes/com/qx/ItemServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/target/classes/com/qx/service/impl/ItemServiceImpl$CreateHtmlTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/target/classes/com/qx/service/impl/ItemServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/target/classes/templates/freemarker.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/target/classes/templates/item.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/target/test-classes/com/qx/ItemMultiThreadGenerateStaticPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/qx-v9-item-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/java/com/qx/ItemWebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/java/com/qx/controller/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/css/doubleDate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/css/shopping-mall-index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/css/star-rating.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/css/star-rating.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/css/zhongling2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/f.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/about-us-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/about-us-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/about-us-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/about-us-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/b5-a2-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/b5-a2-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/b5-if1-l-dt-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/banner-bgtu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/banner-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/banner-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/beaut-con-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/beaut-con-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/beaut-con-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/beaut-con-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/beaut-lg-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/beaut-lg-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/beaut-lg-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/box3-dt-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/box7-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/box7-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/box7-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/box7-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/box7-li-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/box7-li-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/close-select-city.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/confirmation-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/confirmation-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dai.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dai1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dai2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/data-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/data-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/din-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/din-m-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/din-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dingwei-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dingwei-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dingwei-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dingwei-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dingwei-li-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dingwei-li-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dl3-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dl3-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-if1-l-tuda1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-if1-l-tuda2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-if1-l-tuda3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-if1-l-tuda4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-if1-l-tuda5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-if1-l-tuda6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-if1-l-tuda7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-if1-l-tuda8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-if1-qietu-left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-if1-qietu-right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-if1-qietu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-if1-qietu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-if1-qietu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-if1-qietu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-if1-qietu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-if1-qietu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-if1-qietu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-ifm-sp1-img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-ifr-fd-dt-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-kj.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-wx.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/dt-xl.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ed-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ed-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/erweima-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/erweima-tu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/fa-r-con-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/fa-r-con-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/fa-r-con-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/fa-r-con-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/failure.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hm-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hm-m-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hm-m-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hm-r-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/home-b-m-dtbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hot-tu1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hot-tu2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hot-tu3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hot-tu4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hot-tu5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hot-tu6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hot-tu7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hot-tu8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hover-br-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hover-br-li-tu10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hover-br-li-tu11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hover-br-li-tu12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hover-br-li-tu13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hover-br-li-tu14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hover-br-li-tu15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hover-br-li-tu16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hover-br-li-tu17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hover-br-li-tu18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hover-br-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hover-br-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hover-br-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hover-br-li-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hover-br-li-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hover-br-li-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hover-br-li-tu8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/hover-br-li-tu9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/if2-l-box1-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/if2-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/if2-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/if2-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/if2-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/if2-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/if2-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/if2-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/in-matong.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/in-matong2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/in-matong3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/int-r-con-li-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/int-r-con-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/int-r-con-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/integral-left-li-p1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/integral-left-li-p2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/integral-left-li-p3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/integral-left-li-p4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/integral-left-li-p5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/integral-left-li-p6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/integral-left-li-p7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/integral-left-li-p8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/jiangheng.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/kj-show-dt-tu1-show.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/kj-show-dt-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/kj-tu1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/kj-tu2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/kj-tu3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ktv-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ktv-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ktv-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ktv-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ktv-li-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ktv-li-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ktv-li-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ktv-li-tu8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/lanyuelian.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/logn-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/m-act-adverut.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/m-act-adverut2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/m-act-adverut3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/m-act-con-firstli-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/m-act-con-li-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ma-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ma-r-tu/ma-r-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ma-r-tu/ma-r-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ma-r-tu/ma-r-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ma-r-tu/ma-r-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ma-r-tu/ma-r-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ma-r-tu/ma-r-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ma-r-tu/ma-r-tu8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ma-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/message-board-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/mk-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/mk-m-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/mk-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/pcm-con-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/pers-l-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/pers-l-tu10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/pers-l-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/pers-l-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/pers-l-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/pers-l-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/pers-l-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/pers-l-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/pers-l-tu8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/pers-l-tu9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/prt-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/prt-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/psw-cuo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/psw-dui.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/psw-yanzhengtu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/re-button-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/rl-mazhida.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/sa-con-l-t-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/sa-con-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/sa-con-r-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/sa-con-r-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/shop-info-dt-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/shop-page-left-dt-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/shop-page-left-dt-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/shop-page-songhsu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/shop-page-span2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/shop-pg2-ddtu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/shop-pg2-ddtu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/shop-pg2-ddtu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/sign-qq.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/sign-xinlan.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/sj-pingpai-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/songshu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/songshu2-dt-h3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/songshu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/sp-con-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/sp-con-l-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/sp-con-r-md-pj.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/sp-con-r-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/sp-kj-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/sv-con-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/sv-con-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/sv-con-r-xx.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/t-c-del.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/tc-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/th-wenjian-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/th-wenjian-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/video-lihoverbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/want-evaluate-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/want-evaluate-tux1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/want-evaluate-tux2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ys1-a-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/ys2-a-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/images/zhifu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/js/doubleDate2.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/js/jquery-1.4.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/js/star-rating.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/static/js/zhonglin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/templates/commodity.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/templates/freemarker.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/resources/templates/item.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/META-INF/qx-v9-item-web.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/com/qx/ItemWebApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/com/qx/controller/ItemController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/css/doubleDate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/css/shopping-mall-index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/css/star-rating.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/css/star-rating.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/css/zhongling2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/f.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/about-us-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/about-us-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/about-us-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/about-us-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/b5-a2-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/b5-a2-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/b5-if1-l-dt-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/banner-bgtu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/banner-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/banner-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/beaut-con-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/beaut-con-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/beaut-con-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/beaut-con-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/beaut-lg-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/beaut-lg-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/beaut-lg-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/box3-dt-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/box7-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/box7-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/box7-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/box7-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/box7-li-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/box7-li-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/close-select-city.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/confirmation-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/confirmation-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dai.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dai1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dai2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/data-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/data-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/din-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/din-m-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/din-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dingwei-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dingwei-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dingwei-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dingwei-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dingwei-li-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dingwei-li-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dl3-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dl3-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-if1-l-tuda1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-if1-l-tuda2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-if1-l-tuda3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-if1-l-tuda4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-if1-l-tuda5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-if1-l-tuda6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-if1-l-tuda7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-if1-l-tuda8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-if1-qietu-left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-if1-qietu-right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-if1-qietu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-if1-qietu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-if1-qietu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-if1-qietu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-if1-qietu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-if1-qietu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-if1-qietu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-ifm-sp1-img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-ifr-fd-dt-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-kj.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-wx.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/dt-xl.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ed-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ed-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/erweima-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/erweima-tu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/fa-r-con-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/fa-r-con-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/fa-r-con-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/fa-r-con-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/failure.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hm-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hm-m-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hm-m-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hm-r-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/home-b-m-dtbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hot-tu1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hot-tu2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hot-tu3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hot-tu4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hot-tu5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hot-tu6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hot-tu7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hot-tu8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hover-br-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hover-br-li-tu10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hover-br-li-tu11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hover-br-li-tu12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hover-br-li-tu13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hover-br-li-tu14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hover-br-li-tu15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hover-br-li-tu16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hover-br-li-tu17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hover-br-li-tu18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hover-br-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hover-br-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hover-br-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hover-br-li-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hover-br-li-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hover-br-li-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hover-br-li-tu8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/hover-br-li-tu9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/if2-l-box1-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/if2-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/if2-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/if2-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/if2-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/if2-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/if2-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/if2-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/in-matong.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/in-matong2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/in-matong3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/int-r-con-li-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/int-r-con-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/int-r-con-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/integral-left-li-p1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/integral-left-li-p2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/integral-left-li-p3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/integral-left-li-p4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/integral-left-li-p5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/integral-left-li-p6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/integral-left-li-p7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/integral-left-li-p8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/jiangheng.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/kj-show-dt-tu1-show.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/kj-show-dt-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/kj-tu1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/kj-tu2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/kj-tu3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ktv-li-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ktv-li-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ktv-li-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ktv-li-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ktv-li-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ktv-li-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ktv-li-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ktv-li-tu8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/lanyuelian.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/logn-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/m-act-adverut.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/m-act-adverut2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/m-act-adverut3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/m-act-con-firstli-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/m-act-con-li-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ma-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ma-r-tu/ma-r-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ma-r-tu/ma-r-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ma-r-tu/ma-r-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ma-r-tu/ma-r-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ma-r-tu/ma-r-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ma-r-tu/ma-r-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ma-r-tu/ma-r-tu8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ma-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/message-board-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/mk-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/mk-m-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/mk-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/pcm-con-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/pers-l-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/pers-l-tu10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/pers-l-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/pers-l-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/pers-l-tu4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/pers-l-tu5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/pers-l-tu6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/pers-l-tu7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/pers-l-tu8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/pers-l-tu9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/prt-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/prt-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/psw-cuo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/psw-dui.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/psw-yanzhengtu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/re-button-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/rl-mazhida.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/sa-con-l-t-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/sa-con-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/sa-con-r-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/sa-con-r-tu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/shop-info-dt-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/shop-page-left-dt-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/shop-page-left-dt-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/shop-page-songhsu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/shop-page-span2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/shop-pg2-ddtu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/shop-pg2-ddtu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/shop-pg2-ddtu3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/sign-qq.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/sign-xinlan.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/sj-pingpai-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/songshu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/songshu2-dt-h3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/songshu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/sp-con-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/sp-con-l-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/sp-con-r-md-pj.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/sp-con-r-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/sp-kj-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/sv-con-l-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/sv-con-r-tu1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/sv-con-r-xx.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/t-c-del.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/tc-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/th-wenjian-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/th-wenjian-tu2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/video-lihoverbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/want-evaluate-tu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/want-evaluate-tux1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/want-evaluate-tux2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ys1-a-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/ys2-a-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/images/zhifu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/js/doubleDate2.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/js/jquery-1.4.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/js/star-rating.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/static/js/zhonglin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/templates/commodity.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/templates/freemarker.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/templates/item.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GenerateStaticPage/78WhatCommodity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-email-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-email-api/qx-v9-email-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-email-api/src/main/java/com/qx/api/email/IEmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-note-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-note-api/qx-v9-note-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-note-api/src/main/java/com/qx/api/INoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-note-api/src/main/java/com/qx/pojo/NoteResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-note-api/src/main/java/com/qx/pojo/ResponseStatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-registry-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-registry-api/src/main/java/com/qx/api/registry/api/RegistryByEmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/src/main/java/com/qingxiu/constants/RabbitMQConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/src/main/java/com/qingxiu/constants/RedisConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/jsp-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/jsp-demo/src/main/java/com/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/jsp-demo/src/main/java/com/qx/controller/JspController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/jsp-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/jsp-demo/src/main/resources/templates/demo02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/jsp-demo/src/main/webapp/WEB-INF/jsp/demo01.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/jsp-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-globalexecption/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-globalexecption/qx-v9-globalexecption.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-globalexecption/src/main/java/com/qx/ExceptionApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-globalexecption/src/main/java/com/qx/controller/ExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-globalexecption/src/main/java/com/qx/globalexception/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-globalexecption/src/main/java/com/qx/typeexception/LoginException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-globalexecption/src/main/java/com/qx/util/AjaxResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-globalexecption/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-redis-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-redis-demo/qx-v9-redis-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-redis-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-redis-demo/src/test/java/com/qx/redis/RedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-redis-demo/src/test/java/com/qx/redis/com/qx/redis/Doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-redis-demo/src/test/java/com/qx/redis/com/qx/redis/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-redis-demo/src/test/java/com/qx/redis/com/qx/redis/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-redis-demo/src/test/java/com/qx/redis/com/qx/redis/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-springBoo-redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-springBoo-redis/src/main/java/com/qx/RedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-springBoo-redis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/qx-v9-springBoo-redis/src/test/java/com/qx/redis/test/SpringbootRedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/socket-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/socket-test/socket-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/socket-test/src/main/java/com/qx/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-demo/socket-test/src/main/java/com/qx/server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-email-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-email-service/src/main/java/com/qx/MailServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-email-service/src/main/java/com/qx/service/impl/MailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-email-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-email-service/src/main/resources/templates/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-email-service/src/test/java/com/qx/service/text/EmailApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/src/main/java/com/qx/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/src/main/java/com/qx/listener/RabbitMQListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-note-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-note-service/qx-v9-note-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-note-service/src/main/java/com/qx/service/impl/NotServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-note-service/src/main/java/com/qx/utils/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-note-service/src/main/java/com/qx/utils/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-note-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-registry-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-registry-service/qx-v9-registry-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-registry-service/src/main/java/com/qx/RegistryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-registry-service/src/main/java/com/qx/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-registry-service/src/main/java/com/qx/listener/RabbitMQListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-registry-service/src/main/java/com/qx/service/impl/RegistryByEmailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-registry-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-search-service/src/main/java/com/qx/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-search-service/src/main/java/com/qx/listener/RabbitMQListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/java/com/qx/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-registry-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-registry-web/qx-v9-registry-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-registry-web/src/main/java/com/qx/RegistryWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-registry-web/src/main/java/com/qx/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-registry-web/src/main/java/com/qx/controller/RegistryByEmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-registry-web/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qx-v9-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-api/qx-v9-product-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-product-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-api/qx-v9-search-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-search-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-api/qx-v9-item-api/src/main/java/com/qx/api/item/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-item-api/src/main/java/com/qx/api/item/IItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-api/qx-v9-item-api/target/classes/com/qx/api/item/ItemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-api/qx-v9-product-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-product-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-api/qx-v9-product-api/target/qx-v9-product-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-api/qx-v9-product-api/target/qx-v9-product-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/src/main/java/com/qingxiu/utills/random/RandomUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/src/main/java/com/qingxiu/utills/random/RandomUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/target/classes/com/qingxiu/utills/random/RandomUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/target/classes/com/qingxiu/utills/random/RandomUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/target/qx-v9-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-common/target/qx-v9-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/src/main/java/com/qx/v9/mapper/TProductTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/src/main/java/com/qx/v9/mapper/TProductTypeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/target/classes/com/qx/v9/mapper/TProductTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-basic/qx-v9-mapper/target/classes/com/qx/v9/mapper/TProductTypeMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qx-v9-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-demo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qx-v9-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/src/main/java/com/qx/ItemServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/src/main/java/com/qx/ItemServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/src/main/java/com/qx/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/src/main/java/com/qx/service/impl/IItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/src/test/java/com/qx/ItemMultiThreadGenerateStaticPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/src/test/java/com/qx/ItemMultiThreadGenerateStaticPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/target/classes/com/qx/ItemServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/target/classes/com/qx/ItemServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/target/classes/com/qx/service/impl/ItemServiceImpl$CreateHtmlTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/target/classes/com/qx/service/impl/ItemServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/target/test-classes/com/qx/ItemMultiThreadGenerateStaticPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/target/test-classes/com/qx/ItemMultiThreadGenerateStaticPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/src/main/java/com/qx/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/src/main/java/com/qx/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/target/classes/com/qx/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-product-service/target/classes/com/qx/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-search-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-search-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-search-service/src/main/java/com/qx/service/impl/SearchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-search-service/src/main/java/com/qx/service/impl/SearchServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-search-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-search-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-search-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-search-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-service/qx-v9-search-service/target/classes/com/qx/service/impl/SearchServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-service/qx-v9-search-service/target/classes/com/qx/service/impl/SearchServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qx-v9-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/java/com/qx/ProductBackGroundApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/java/com/qx/ProductBackGroundApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/java/com/qx/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/java/com/qx/controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/classes/com/qx/ProductBackGroundApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/classes/com/qx/ProductBackGroundApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/classes/com/qx/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/classes/com/qx/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-index/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-index/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-index/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-index/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-search-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-search-web/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-search-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-search-web/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/qx-v9-back-ground-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/qx-v9-back-ground-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/qx-v9-back-ground-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-back-ground/target/qx-v9-back-ground-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-index/src/main/resources/templates/front2rear-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-index/src/main/resources/templates/front2rear-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-index/target/classes/templates/front2rear-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-index/target/classes/templates/front2rear-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/java/com/qx/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/src/main/java/com/qx/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/com/qx/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qx-v9-web/qx-v9-item-web/target/classes/com/qx/controller/ItemController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -565,9 +150,9 @@
         <option value="JUnit5 Test Class" />
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit4 Test Class" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -609,40 +194,46 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="JDK8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/qx-v9-service/qx-v9-item-service/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.qx.service.impl" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-web\qx-v9-back-ground\src\main\resources\static\css" />
-      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-demo\qx-v9-demo-fastdsf\src\main\resources" />
-      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-web\qx-v9-back-ground\src\main\resources\templates" />
-      <recent name="G:\JAVA\Dubbo\FW\Project\dubbo-project\qx-v9-basic\qx-v9-mapper\src\main\java\com\qx\v9\dao" />
-      <recent name="G:\JAVA\Dubbo\FW\Project\dubbo-project\qx-v9-basic\qx-v9-mapper\src\main\java\com\qx\v9\mapper" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-demo\jsp-demo\src\main\webapp\WEB-INF\jsp" />
+      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-demo\jsp-demo\src\main\webapp" />
+      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-demo\jsp-demo\src\main\resources\templates" />
+      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-web\qx-v9-back-ground\src\main\resources\static\css" />
+      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-demo\qx-v9-demo-fastdsf\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com" />
+      <recent name="com.qx" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qx.listener" />
+      <recent name="com.qx.config" />
       <recent name="com.qingxiu.utills.random" />
       <recent name="com.qingxiu.utills.largerandomnumber" />
       <recent name="com.qingxiu.utills.dataforseckill" />
-      <recent name="com.qingxiu.utills.inputstream2xml" />
-      <recent name="com.qingxiu.utills" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-service\qx-v9-note-service\src\main\java\com\qx\utils" />
+      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-service\qx-v9-item-service\src\main\java\com\qx\config" />
+      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-service\qx-v9-item-service\src\main\java\com\qx\listener" />
       <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-service\qx-v9-item-service\src\main\resources\templates" />
       <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-web\qx-v9-item-web\src\main\resources\templates" />
-      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-web\qx-v9-item-web\src\main\resources" />
-      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-web\qx-v9-search-web\src\main\resources\templates" />
-      <recent name="F:\JAVA\Dubbo\FW\Project\GitbubVersion\dubbo-project\qx-v9-web\qx-v9-search-web\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -662,35 +253,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ItemMultiThreadGenerateStaticPage.MultiThreadGenerateStaticPageTest">
-    <configuration name="FreemarkerTest.createHtml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qx-v9-demo-freemarker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qx.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qx.test" />
-      <option name="MAIN_CLASS_NAME" value="com.qx.test.FreemarkerTest" />
-      <option name="METHOD_NAME" value="createHtml" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemMultiThreadGenerateStaticPage.MultiThreadGenerateStaticPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qx-v9-item-service" />
+  <component name="RunManager" selected="Application.JspController">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qx.Client" />
+      <module name="socket-test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.qx" />
-      <option name="MAIN_CLASS_NAME" value="com.qx.ItemMultiThreadGenerateStaticPage" />
-      <option name="METHOD_NAME" value="MultiThreadGenerateStaticPageTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JspController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qx.controller.JspController" />
+      <module name="jsp-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qx.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qx.server" />
+      <module name="socket-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="jsp-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -698,6 +309,19 @@
     <configuration name="DemoFreemarkerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="qx-v9-demo-freemarker" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qx.DemoFreemarkerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="qx-v9-globalexecption" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qx.ExceptionApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -716,27 +340,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="qx-v9-item-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qx.ItemServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ItemWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="qx-v9-item-web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qx.ItemWebApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -756,14 +361,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchWebApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="qx-v9-springBoo-redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qx.RedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="qx-v9-search-web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qx.SearchWebApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -777,25 +383,28 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.FreemarkerTest.createHtml" />
+      <item itemvalue="Application.server" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.JspController" />
       <item itemvalue="Spring Boot.FileApplication" />
       <item itemvalue="Spring Boot.ProductServiceApplication" />
       <item itemvalue="Spring Boot.IndexApplication" />
       <item itemvalue="Spring Boot.ProductBackGroundApplication" />
       <item itemvalue="Spring Boot.SolrApplication" />
       <item itemvalue="Spring Boot.DemoFreemarkerApplication" />
-      <item itemvalue="Spring Boot.SearchWebApplication (1)" />
+      <item itemvalue="Spring Boot.RedisApplication" />
       <item itemvalue="Spring Boot.ItemWebApplication" />
-      <item itemvalue="Spring Boot.ItemServiceApplication" />
-      <item itemvalue="JUnit.ItemMultiThreadGenerateStaticPage.MultiThreadGenerateStaticPageTest" />
+      <item itemvalue="Spring Boot.SearchWebApplication" />
+      <item itemvalue="Spring Boot.ExceptionApplication" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ItemMultiThreadGenerateStaticPage.MultiThreadGenerateStaticPageTest" />
-        <item itemvalue="Spring Boot.ItemWebApplication" />
-        <item itemvalue="Spring Boot.ItemServiceApplication" />
-        <item itemvalue="Spring Boot.SearchWebApplication (1)" />
-        <item itemvalue="JUnit.FreemarkerTest.createHtml" />
+        <item itemvalue="Application.JspController" />
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.server" />
+        <item itemvalue="Spring Boot.ExceptionApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -804,14 +413,28 @@
       <serviceView>
         <option name="contentProportion" value="0.2645074" />
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@bdcf11b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@bdcf11b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1e3b4d6a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
     </option>
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_LAMBDA" />
+  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <option name="sshConnectionType" value="PASSWORD" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -841,6 +464,35 @@
       <workItem from="1596607827487" duration="2455000" />
       <workItem from="1596611686939" duration="22608000" />
       <workItem from="1596686393578" duration="7779000" />
+      <workItem from="1596694982154" duration="13587000" />
+      <workItem from="1596764374598" duration="15843000" />
+      <workItem from="1596955918222" duration="1916000" />
+      <workItem from="1596988317831" duration="1399000" />
+      <workItem from="1597044512394" duration="15747000" />
+      <workItem from="1597124629411" duration="3464000" />
+      <workItem from="1597205360837" duration="696000" />
+      <workItem from="1597245046296" duration="1253000" />
+      <workItem from="1597904951572" duration="4547000" />
+      <workItem from="1597981765480" duration="18667000" />
+      <workItem from="1598120192556" duration="1050000" />
+      <workItem from="1598178973869" duration="878000" />
+      <workItem from="1598242499533" duration="3093000" />
+      <workItem from="1598497939098" duration="664000" />
+      <workItem from="1598523438018" duration="3149000" />
+      <workItem from="1598675941272" duration="4529000" />
+      <workItem from="1598926657412" duration="8916000" />
+      <workItem from="1599019456340" duration="2842000" />
+      <workItem from="1599036152336" duration="129000" />
+      <workItem from="1599059805639" duration="32000" />
+      <workItem from="1599122172937" duration="1956000" />
+      <workItem from="1599480350513" duration="3199000" />
+      <workItem from="1599539002315" duration="5382000" />
+      <workItem from="1599622867013" duration="9950000" />
+      <workItem from="1599841458548" duration="3861000" />
+      <workItem from="1599877607582" duration="793000" />
+      <workItem from="1599887829492" duration="5181000" />
+      <workItem from="1600058467598" duration="2697000" />
+      <workItem from="1600139975529" duration="2644000" />
     </task>
     <servers />
   </component>
@@ -877,6 +529,7 @@
     <SUITE FILE_PATH="coverage/dubbo_project$SolrTestApplication_deleteDataFromSolr.ic" NAME="SolrTestApplication.deleteDataFromSolr Coverage Results" MODIFIED="1596539609630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.qx.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/dubbo_project$SolrApplication.ic" NAME="SolrApplication Coverage Results" MODIFIED="1596723472349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/dubbo_project$SolrTestApplication_addDataToSolr.ic" NAME="SolrTestApplication.addDataToSolr Coverage Results" MODIFIED="1596512759125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.qx.*</FILTER>
     </SUITE>

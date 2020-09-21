@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Send a test mail to check your Email whether is normal or not</title>
+
+    <!--    Dear:-->
+    <!--    <sanp th:text="${user.username}"></sanp>-->
+
+    <!--    Inorder to your account safety ,please click <a th:href="${user.url}" th:text="${user.url}">here</a> to authorize-->
+    <!--    your account. Thanks.-->
+    Dear user; Your verification code is
+    <sanp th:text="${code}"></sanp>
+    for this time. valid time is 5 minutes ,please quick to user.Thanks.
+
+
+</head>
+<body>
+
+</body>
+</html>

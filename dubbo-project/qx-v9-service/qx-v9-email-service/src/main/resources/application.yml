@@ -1,0 +1,21 @@
+server:
+  port: 8060
+spring:
+  mail:
+    host: smtp.163.com
+    username: qx_java@163.com
+    password: LLBWHOMCGZJPEGIU
+    default-encoding: UTF-8
+
+mail:
+  name: qx_java@163.com
+
+dubbo:
+  application:
+    name: email-service
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  consumer:
+    timeout: 3000
+  protocol:
+    port: 20855

@@ -1,2 +1,5 @@
+com\qx\tempFilecontroller\FileController.class
 com\qx\controller\ProductTypeController.class
 com\qx\ProductBackGroundApplication.class
+com\qx\controller\ProductController.class
+com\qx\config\RabbitConfig.class

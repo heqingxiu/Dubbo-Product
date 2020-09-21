@@ -18,6 +18,9 @@
         <module>qx-v9-product-service</module>
         <module>qx-v9-search-service</module>
         <module>qx-v9-item-service</module>
+        <module>qx-v9-note-service</module>
+        <module>qx-v9-email-service</module>
+        <module>qx-v9-registry-service</module>
     </modules>
 
 </project>

@@ -38,7 +38,10 @@ public class SearchServiceImpl implements IProductSearchService {
     @Autowired
     private SolrClient solrClient;
 
-
+    /**
+     * 首次全批加载
+     * @return
+     */
     @Override
     public String importAllData() {
         // 1. Query all the product messages
@@ -70,7 +73,7 @@ public class SearchServiceImpl implements IProductSearchService {
 
 
     /**
-     * Solr-data synchronization
+     * 增量加载
      *
      * @param result
      */
@@ -97,7 +100,7 @@ public class SearchServiceImpl implements IProductSearchService {
 
 
     /**
-     * Implement:  Fuzzy search for product by key words
+     * 通过关键字进行模糊搜索
      *
      * @param words
      * @return
@@ -159,7 +162,7 @@ public class SearchServiceImpl implements IProductSearchService {
     }
 
     /**
-     * paging search
+     * 分页搜索
      *
      * @param words
      * @param pageIndex

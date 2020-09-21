@@ -32,9 +32,9 @@
     <modules>
         <module>qx-v9-back-ground</module>
         <module>qx-v9-index</module>
-        <module>qx-v9-search</module>
         <module>qx-v9-search-web</module>
         <module>qx-v9-item-web</module>
+        <module>qx-v9-registry-web</module>
     </modules>
 
 </project>
